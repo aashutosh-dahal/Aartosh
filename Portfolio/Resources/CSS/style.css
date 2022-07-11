@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+* {
+  padding: 0;
+
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(102, 103, 118);
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* LOGO */
+/* ----------------------------------------------- */
+
+.logo {
+  position: absolute;
+  height: 15vh;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.logo img {
+  height: 15vh;
+  border-radius: 50%;
+}
+
+/* ----------------------------------------------- */
+/* NAVIGATION */
+/* ----------------------------------------------- */
+
+.nav {
+  position: absolute;
+
+  left: 58%;
+  top: 5%;
+  color: white;
+}
+
+.nav ul li {
+  padding-left: 30px;
+  display: inline;
+}
+
+.nav ul li a {
+  letter-spacing: 0.5px;
+  font-size: 122%;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav ul li a:hover  {
+  box-sizing: border-box;
+  border-bottom: 2px solid #f6e6e6;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+/* ----------------------------------------------- */
+/* INTRO */
+/* ----------------------------------------------- */
+
+.intro {
+  left: 7%;
+  top: 65%;
+  position: absolute;
+}
+
+.intro-name h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  letter-spacing: 4px;
+  font-size: 250%;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+}
+
+.intro-desc h2 {
+  margin-top: 8px;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  font-size: 160%;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* ----------------------------------------------- */
+/* SOCIAL-LINKS */
+/* ----------------------------------------------- */
+
+.social-links {
+  position: absolute;
+  bottom: 10%;
+  left: 95%;
+  font-size: 160%;
+  line-height: 65px;
+}
+
+.social-links li a {
+  color: white;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  background: rgb(182, 79, 96);
+  padding: 10px;
+  border-radius: 20%;
+}
+
+.social-links li a:hover {
+  background: rgba(168, 66, 83, 0.76);
+}
+
+/* ----------------------------------------------- */
+/* BACKGROUND */
+/* ----------------------------------------------- */
+
+.bg-image {
+  background: url(Images/0036ad781dee3be50940952e7f6b160a.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all 0.5s;
+}
+
+.bg-image{
+  background-attachment: fixed;
+
+}
+
+/* ----------------------------------------------- */
+/* INTRODUCTION */
+/* ----------------------------------------------- */
+
+.about-me-title {
+  position: relative;
+  margin-top: 55px;
+  left: 25%;
+  width: 50%;
+}
+
+.about-me-title h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-size: 200%;
+  letter-spacing: 4px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  border-top: 2px solid #b0b0b0;
+}
+
+.about-me-title h1:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #b0b0b0;
+  border-top: 2px solid black;
+  transition: all 0.6s ease-in-out;
+}
+
+.about-me-about {
+  position: relative;
+  margin-top: 30px;
+  width: 75%;
+  left: 15%;
+}
+.about-me-about p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 120%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* ----------------------------------------------- */
+/* ART-GALLERY */
+/* ----------------------------------------------- */
+
+.art-gallery {
+  margin-top: 100px;
+}
+
+.random-image img {
+  float: left;
+}
+
+.random-image {
+  display: flex;
+  float: left;
+}
+
+/* ----------------------------------------------- */
+/* FIELD-OF-INTEREST */
+/* ----------------------------------------------- */
+
+.interest {
+  margin-top: 700px;
+}
+
+.interest-heading {
+  position: relative;
+  left: 35%;
+  width: 35%;
+}
+
+.interest-heading h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  font-size: 210%;
+  letter-spacing: 4px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  border-top: 2px solid #b0b0b0;
+  padding-left: 20px;
+}
+
+.interest-heading h1:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #b0b0b0;
+  border-top: 2px solid black;
+  transition: all 0.6s ease-in-out;
+}
+
+.box {
+  margin-left: 50px;
+}
+
+.content {
+  height: 260px;
+  width: 285px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  /* background-image: linear-gradient(rgb(182, 79, 96), #787878); */
+
+  box-shadow: 5px 5px 10px 5px #282828;
+  margin-top: 45px;
+  border-radius: 7%;
+}
+
+.content h2 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 140%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+
+.content p {
+  margin-top: 18px;
+  margin-left: 15px;
+  width: 93%;
+  font-size: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+/* ----------------------------------------------- */
+/* CONTACT-FORM */
+/* ----------------------------------------------- */
+
+.contact-form-title {
+  position: relative;
+  left: 38%;
+  width: 27%;
+  margin-top: 380px;
+}
+
+.contact-form-title h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: white;
+  font-size: 200%;
+  letter-spacing: 4px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  border-top: 2px solid #b0b0b0;
+  padding-left: 16px;
+}
+
+.contact-form-title h1:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #b0b0b0;
+  border-top: 2px solid black;
+  transition: all 0.6s ease;
+}
+
+.contact-form {
+  width: 78%;
+  margin: auto;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+select {
+  width: 102%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {
+  outline: none;
+}
+
+.row label {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 90%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+.box {
+  padding: 1%;
+}
+
+.buttons {
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+
+button {
+  position: relative;
+  left: 41%;
+  background-color: rgb(102, 103, 118);
+  font-size: 18px;
+  padding: 15px 32px;
+  border-radius: 2%;
+  border: 2px black solid;
+  letter-spacing: 3px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: rgb(193, 72, 92);
+  border: 2px #333 solid;
+  transition: all 0.5s ease;
+}
+
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+  padding: 205px;
+  background-color: rgb(30, 29, 29);
+}
+
+.footer-name {
+  position: absolute;
+  right: 70%;
+  margin-top: -150px;
+}
+
+.footer-name h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(169, 166, 166);
+  font-size: 150%;
+  letter-spacing: 4px;
+}
+
+.footer-name ul {
+  padding: 5px 10px 0px 10px;
+}
+
+.footer-name ul li {
+  color: rgb(169, 166, 166);
+  list-style-type: disc;
+  padding: 8px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.footer-features {
+  position: absolute;
+  right: 45%;
+  margin-top: -150px;
+}
+
+.footer-features h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(169, 166, 166);
+  font-size: 150%;
+  letter-spacing: 4px;
+}
+
+.footer-features ul {
+  padding: 5px 10px 0px 10px;
+}
+
+.footer-features ul li a {
+  color: rgb(169, 166, 166);
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.footer-features ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-features ul li {
+  list-style-type: disc;
+  color: rgb(169, 166, 166);
+  padding: 8px;
+}
+
+.social {
+  position: absolute;
+  right: 10%;
+}
+
+.social h1 {
+  position: absolute;
+  right: 10%;
+  margin-top: -150px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(169, 166, 166);
+  font-size: 150%;
+  letter-spacing: 4px;
+}
+
+.social-links-2 {
+  margin-right: 40px;
+  margin-top: -110px;
+}
+
+.social-links-2 li {
+  line-height: 30px;
+}
+
+.social-links-2 li a {
+  color: rgb(169, 166, 166);
+  font-size: 130%;
+}
+
+.social-links-2 li a:hover {
+  color: #ffffff;
+}
+
+.social-links-3 {
+  position: absolute;
+  right: 50%;
+  margin-right: 50px;
+  margin-top: -95px;
+}
+
+.social-links-3 li {
+  line-height: 30px;
+}
+
+.social-links-3 li a {
+  color: rgb(169, 166, 166);
+  font-size: 130%;
+}
+
+.social-links-3 li a:hover {
+  color: #ffffff;
+}
+
+.footer-end {
+  position: absolute;
+  margin-top: 125px;
+  right: 42%;
+}
+
+.footer-end p {
+  font-size: 90%;
+  color: rgb(169, 166, 166);
+  letter-spacing: 1px;
+}

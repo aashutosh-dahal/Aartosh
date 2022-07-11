@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+* {
+  padding: 0;
+
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(102, 103, 118);
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* LOGO */
+/* ----------------------------------------------- */
+
+.logo {
+  position: absolute;
+  height: 13vh;
+  float: left;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+.logo img {
+  height: 13vh;
+  border-radius: 50%;
+}
+
+/* ----------------------------------------------- */
+/* NAVIGATION */
+/* ----------------------------------------------- */
+
+.nav {
+  position: absolute;
+  left: 60%;
+  top: 5%;
+  color: white;
+}
+
+.nav ul li {
+  padding-left: 30px;
+  display: inline;
+}
+
+.nav ul li a {
+  letter-spacing: 0.5px;
+  font-size: 110%;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+}
+
+.nav ul li a:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #f6e6e6;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ----------------------------------------------- */
+/* INTRO */
+/* ----------------------------------------------- */
+
+.intro {
+  left: 5%;
+  top: 45%;
+  position: absolute;
+}
+
+.intro-name h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  letter-spacing: 4px;
+  font-size: 220%;
+  font-weight: 800;
+  color: white;
+  text-transform: uppercase;
+}
+
+.intro-desc h2 {
+  margin-top: 8px;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  font-size: 130%;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* ----------------------------------------------- */
+/* BACKGROUND */
+/* ----------------------------------------------- */
+
+.bg-image {
+  background: url(Images/0036ad781dee3be50940952e7f6b160a.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  transition: all 0.5s;
+}
+
+.bg-image{
+  background-attachment: fixed;
+
+}
+
+/* ----------------------------------------------- */
+/* OTHER PROJECTS */
+/* ----------------------------------------------- */
+
+.Other-projectss {
+  width: 18%;
+  position: absolute;
+  margin-top: 45px;
+  left: 85%;
+}
+
+.Other-projectss-title h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+  font-size: 120%;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #f6e6e6;
+  width: 80%;
+}
+
+.Other-projectss-list {
+  background-color: rgb(249, 246, 246);
+  width: 70%;
+  margin-top: 20px;
+  border-radius: 5%;
+}
+
+.Other-projectss-list ul li {
+  box-sizing: border-box;
+  cursor: pointer;
+  border-bottom: 1.5px solid black;
+  border-top: 1.5px solid rgba(255, 255, 255, 0.1);
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Other-projectss-list ul li a {
+  font-family: "Lato", "Arial", sans-serif;
+  color: black;
+  font-weight: 400;
+}
+
+/* ----------------------------------------------- */
+/* SCRAPE - TITLE */
+/* ----------------------------------------------- */
+
+.Scrape-title {
+  position: relative;
+  margin-top: 45px;
+  left: 41%;
+  width: 13%;
+}
+
+.Scrape-title h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  font-size: 220%;
+  letter-spacing: 4px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+  border-top: 2px solid #b0b0b0;
+}
+
+.Scrape-title h1:hover {
+  box-sizing: border-box;
+  border-bottom: 2px solid #b0b0b0;
+  border-top: 2px solid black;
+  transition: all 0.6s ease-in-out;
+}
+
+/* ----------------------------------------------- */
+/* SCRAPE - CONTENT - 1 */
+/* ----------------------------------------------- */
+
+.WPC-content {
+  width: 70%;
+}
+
+.wpc-1 {
+  position: relative;
+  margin-top: 55px;
+  left: 13%;
+}
+
+.wpc-about-1 {
+  position: absolute;
+  width: 30%;
+  left: 47%;
+  top: 77%;
+}
+
+.wpc-about-1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* ----------------------------------------------- */
+/* SCRAPE - CONTENT - 2 */
+/* ----------------------------------------------- */
+
+.wpc-2 {
+  position: relative;
+  margin-top: 55px;
+  left: 67%;
+}
+
+.wpc-about-2 {
+  position: relative;
+  width: 50%;
+  left: 13%;
+  margin-top: -272px;
+}
+
+.wpc-about-2 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  letter-spacing: 1px;
+  color: rgb(248, 235, 235);
+}
+
+/* ----------------------------------------------- */
+/* SCRAPE - CONTENT - 3 */
+/* ----------------------------------------------- */
+
+.wpc-3 {
+  position: relative;
+  margin-top: 110px;
+  left: 13%;
+}
+
+.wpc-about-3 {
+  position: absolute;
+  width: 30%;
+  left: 47%;
+  top: 159%;
+}
+
+.wpc-about-3 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+/* ----------------------------------------------- */
+/* DOWNLOAD LINK*/
+/* ----------------------------------------------- */
+
+.download-link {
+  position: relative;
+  width: 65%;
+  left: 10%;
+  margin-top: 75px;
+}
+
+.download-link p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.wpc-link {
+  position: relative;
+  left: 10%;
+  margin-top: 8px;
+  margin-bottom: 50px ;
+}
+
+.wpc-link a {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.other-projects {
+  position: relative;
+  width: 65%;
+  margin-top: 20px;
+}
+
+.other-projects p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.other-projects ul li {
+  line-height: 120%;
+  position: relative;
+
+  margin-top: 7px;
+}
+
+/* ----------------------------------------------- */
+/* FOOTER */
+/* ----------------------------------------------- */
+
+footer {
+  padding: 205px;
+  background-color: rgb(30, 29, 29);
+}
+
+.footer-name {
+  position: absolute;
+  right: 70%;
+  margin-top: -150px;
+}
+
+.footer-name h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(169, 166, 166);
+  font-size: 150%;
+  letter-spacing: 4px;
+}
+
+.footer-name ul {
+  padding: 5px 10px 0px 10px;
+}
+
+.footer-name ul li {
+  color: rgb(169, 166, 166);
+  list-style-type: disc;
+  padding: 8px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.footer-features {
+  position: absolute;
+  right: 45%;
+  margin-top: -150px;
+}
+
+.footer-features h1 {
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(169, 166, 166);
+  font-size: 150%;
+  letter-spacing: 4px;
+}
+
+.footer-features ul {
+  padding: 5px 10px 0px 10px;
+}
+
+.footer-features ul li a {
+  color: rgb(169, 166, 166);
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.footer-features ul li a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.footer-features ul li {
+  list-style-type: disc;
+  color: rgb(169, 166, 166);
+  padding: 8px;
+}
+
+.social {
+  position: absolute;
+  right: 10%;
+}
+
+.social h1 {
+  position: absolute;
+  right: 10%;
+  margin-top: -150px;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(169, 166, 166);
+  font-size: 150%;
+  letter-spacing: 4px;
+}
+
+.social-links-2 {
+  margin-right: 40px;
+  margin-top: -110px;
+}
+
+.social-links-2 li {
+  line-height: 30px;
+}
+
+.social-links-2 li a {
+  color: rgb(169, 166, 166);
+  font-size: 130%;
+}
+
+.social-links-2 li a:hover {
+  color: #ffffff;
+}
+
+.social-links-3 {
+  position: absolute;
+  right: 50%;
+  margin-right: 50px;
+  margin-top: -95px;
+}
+
+.social-links-3 li {
+  line-height: 30px;
+}
+
+.social-links-3 li a {
+  color: rgb(169, 166, 166);
+  font-size: 130%;
+}
+
+.social-links-3 li a:hover {
+  color: #ffffff;
+}
+
+.footer-end {
+  position: absolute;
+  margin-top: 125px;
+  right: 42%;
+}
+
+.footer-end p {
+  font-size: 90%;
+  color: rgb(169, 166, 166);
+  letter-spacing: 1px;
+}
